@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    display: flex;
+    height: 100vh;
+    background: #fafafa;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+
+    h1 {        
+        color: #4c4e61;
+        font-size: 24px;
+        font-weight: 200;
+        margin: 0 0 10px;
+    }
+
+    h2 {        
+        color: #4c4e61;
+        font-size: 24px;
+        font-weight: 600;
+        margin: 0 0 25px;
+    }
+
+    p {
+        color: #a3a5ae;
+    }
+}
+
+.cards {
+    margin-top: 80px;
+}
+
+.card {    
+    background: white;
+    margin-bottom: 25px;
+    padding: 28px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px 0 #D9E0EA;
+    text-align: right;
+
+    h3 {
+        text-align: left;
+        color: #4c4e61;
+        font-size: 19px;
+        font-weight: 600;
+        margin: 0 0 10px;
+    }
+
+    p {
+        text-align: left;
+        font-size: 13px;
+    }
+
+    img {
+        width: 57px;
+        margin-top: 30px;
+    }
+}
+
+.supervisor {
+    border-top: 4px solid #45d3d3;
+}
+
+.team-builder {
+    border-top: 4px solid #ea5353;
+}
+
+.karma {
+    border-top: 4px solid #fcaf4a;
+}
+
+.calculator {
+    border-top: 4px solid #549ef2;
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {        
+    
+        h1 {
+            font-size: 38px;
+            margin: 0 0 15px;
+        }
+    
+        h2 {
+            font-size: 38px;
+        }
+    
+        p {
+            width: 45%;
+            margin: 0 auto;
+        }
+    }
+
+    .cards {
+        margin-top: 65px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .card {    
+        width: 350px;
+        margin: 30px 15px;
+    
+        h3 {            
+            font-size: 20px;
+        }
+    
+        p {
+            width: 100%;
+        }
+    
+        img {
+            width: 64px;
+            margin-top: 40px;
+        }
+    }
+}
